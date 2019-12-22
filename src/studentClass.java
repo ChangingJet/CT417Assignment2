@@ -11,7 +11,7 @@ public class studentClass {
 	public static String modules = "CT417";
 	
 	public static void main(String args[]){  
-		String student = "[ "+name+", "+age+", "+DOB+", "+ID+", "+username+", "+course+", "+modules+" ]";
+		String student = "["+name+", "+age+", "+DOB+", "+ID+", "+username+", "+course+", "+modules+"]";
 		System.out.println(student);
 	}  
 }  
