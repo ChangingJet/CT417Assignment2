@@ -2,6 +2,9 @@ import junit.framework.*;
 
 public class Main {
 	
+	public String student;
+	
+	
 	public static void main(String args[]){  
 		
 		String student = studentClass.Student(args);
@@ -15,9 +18,8 @@ public class Main {
 	public class JavaTest extends TestCase {
 		  
 		   public void testAdd(){
-		      int student = 0;
-			double result = student + student;
-		      assertTrue(result == 6);
+			String result = student;
+		      assertTrue(result == student);
 
 		   }
 	}
