@@ -10,13 +10,10 @@ public class studentClass {
 	public static String course = "Electronic + Computer Engineering";
 	public static String modules = "CT417";
 	
-	private static String moduleName = "Software Engineering III";
-	private static String moduleID = "CT417";
-	private static String studentList = "Matthew, Callum, Ryan";
-	
-	public static void Student(String args[]){  
+	public static String Student(String args[]){  
 		String student = "["+name+", "+age+", "+DOB+", "+ID+", "+username+", "+course+", "+modules+"]";
-		System.out.println(student);
+		//System.out.println(student);
+		return student;
 	}
 
 }  

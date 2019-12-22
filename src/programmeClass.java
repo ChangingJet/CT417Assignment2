@@ -7,8 +7,9 @@ public class programmeClass {
 	public static int acYearEnd = 2020;
 	
 	
-	public static void Programme(String args[]){  
-		String student = "["+courseName+", "+moduleList+", "+studentList+", "+acYearStart+", "+acYearEnd+"]";
-		System.out.println(student);
+	public static String Programme(String args[]){  
+		String programme = "["+courseName+", "+moduleList+", "+studentList+", "+acYearStart+", "+acYearEnd+"]";
+		//System.out.println(student);
+		return programme;
 	}  
 }
