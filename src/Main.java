@@ -13,14 +13,18 @@ public class Main {
 		System.out.println("Student: "+student);
 		System.out.println("Module: "+module);
 		System.out.println("Programme: "+programme);
-	}
-	
-	public class JavaTest extends TestCase {
+
+//Tried implementing JUnits
+		class JavaTest extends TestCase {
 		  
 		   public void testAdd(){
 			String result = student;
 		      assertTrue(result == student);
 
 		   }
+		}
+		
 	}
+
+
 }
