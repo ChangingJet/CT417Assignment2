@@ -1,11 +1,12 @@
 
 public class moduleClass {
 	
-	public static String moduleName = "Software Engineering III";
-	public static String moduleID = "CT417";
-	public static String studentList = "Matthew, Callum, Ryan";
+	private static String moduleName = "Software Engineering III";
+	private static String moduleID = "CT417";
+	private static String studentList = "Matthew, Callum, Ryan";
 	
-	public static void main(String args[]){  
+	public static void Module(String args[]){  
+		
 		String module = "["+moduleName+", "+moduleID+", "+studentList+"]";
 		System.out.println(module);
 	}  
