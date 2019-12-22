@@ -1,15 +1,43 @@
 
 public class programmeClass {
-	public static String courseName = "Matthew";
-	public static String moduleList = "CT4101, CT414, CT417";
-	public static String studentList = "Matthew, Callum, Ryan";
-	public static int acYearStart = 2019;
-	public static int acYearEnd = 2020;
+	public String courseName = "Matthew";
+	public String moduleList = "CT4101, CT414, CT417";
+	public String studentList = "Matthew, Callum, Ryan";
+	public int acYearStart = 2019;
+	public int acYearEnd = 2020;
+	 
+	
+	public String getCourseName() {
+        return this.courseName;
+    }
+	public String getModuleList() {
+        return this.moduleList;
+    }
+	public String getStudentList() {
+        return this.studentList;
+    }
+	public int getacYearStart() {
+        return this.acYearStart;
+    }
+	public int getacYearEnd() {
+        return this.acYearEnd;
+    }
 	
 	
-	public static String Programme(String args[]){  
-		String programme = "["+courseName+", "+moduleList+", "+studentList+", "+acYearStart+", "+acYearEnd+"]";
-		//System.out.println(student);
-		return programme;
-	}  
+	public void setCourseName(String var) {
+        this.courseName = var;
+    }
+	public void setModuleName(String var) {
+        this.moduleList = var;
+    }
+	public void setStudentList(String var) {
+        this.studentList = var;
+    }
+	public void setYearStart(int var) {
+        this.acYearStart = var;
+    }
+    public void setYearEnd(int var) {
+        this.acYearEnd = var;
+    }
+	
 }

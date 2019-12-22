@@ -1,14 +1,30 @@
 
 public class moduleClass {
 	
-	private static String moduleName = "Software Engineering III";
-	private static String moduleID = "CT417";
-	private static String studentList = "Matthew, Callum, Ryan";
+	private String moduleName;
+	private String moduleID;
+	private String studentList;
 	
-	public static String Module(String args[]){  
-		
-		String module = "["+moduleName+", "+moduleID+", "+studentList+"]";
-		//System.out.println(module);
-		return module;
-	}  
+	
+	public String getModuleName() {
+        return this.moduleName;
+    }
+	public String getModuleID() {
+        return this.moduleID;
+    }
+	public String getStudentList() {
+        return this.studentList;
+    }
+	
+	
+	public void setModuleName(String var) {
+        this.moduleName = var;
+    }
+	public void setModuleID(String var) {
+        this.moduleID = var;
+    }
+	public void setStudentList(String var) {
+        this.studentList = var;
+    }
+	
 }
